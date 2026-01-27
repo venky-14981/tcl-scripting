@@ -1,0 +1,7 @@
+puts "enter a number"
+gets stdin  i
+if {$i%2== 0} {
+    puts "$i is an even number"
+} else {
+    puts "it is an odd number"
+}
