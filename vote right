@@ -1,0 +1,11 @@
+puts "enter the age"
+for { set i 0 } {$i <= 5} {incr i} {
+gets stdin age
+if {$age< 18 } {
+    puts "not eligible to vote" 
+} elseif {$age> 18} {
+    puts "vote"
+} else {
+    puts "let me check"
+}
+}
